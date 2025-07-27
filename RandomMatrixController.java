@@ -6,7 +6,7 @@ import javafx.scene.paint.Color;
 
 import java.util.Random;
 
-public class Maman11Q2Controller {
+public class RandomMatrixController {
 
     @FXML
     private Canvas canv;
