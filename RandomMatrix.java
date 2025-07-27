@@ -10,9 +10,9 @@ public class Maman11Q2 extends Application{
     public void start(Stage stage) throws Exception{
         System.out.println(getClass().getResource("/Maman11Q2.fxml"));
 
-        Parent root = (Parent) FXMLLoader.load(getClass().getResource("/Maman11Q2.fxml"));
+        Parent root = (Parent) FXMLLoader.load(getClass().getResource("/RandomMatrix.fxml"));
         Scene scene = new Scene(root);
-        stage.setTitle("Maman11Q2");
+        stage.setTitle("RandomMatrix");
         stage.setScene(scene);
         stage.show();
     }
