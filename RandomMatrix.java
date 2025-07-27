@@ -5,10 +5,10 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 
-public class Maman11Q2 extends Application{
+public class RandomMatrix extends Application{
 
     public void start(Stage stage) throws Exception{
-        System.out.println(getClass().getResource("/Maman11Q2.fxml"));
+        System.out.println(getClass().getResource("/RandomMatrix.fxml"));
 
         Parent root = (Parent) FXMLLoader.load(getClass().getResource("/RandomMatrix.fxml"));
         Scene scene = new Scene(root);
